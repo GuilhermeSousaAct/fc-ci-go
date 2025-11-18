@@ -6,6 +6,7 @@ on:
 
 jobs:
   check-application:
+    name: golang-ci
     runs-on: ubuntu-latest
     strategy:
       matrix:
